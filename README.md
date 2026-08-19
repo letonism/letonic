@@ -1,16 +1,449 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Letonic Grammar and Basic Vocabulary</title>
+<style>
+body{font-family:Arial,sans-serif;line-height:1.6;max-width:900px;margin:auto;padding:20px;background:#f7f7f7;color:#222}
+section{background:#fff;padding:20px;margin:20px 0;border-radius:8px}
+h1,h2{border-bottom:2px solid #ddd;padding-bottom:6px}
+table{border-collapse:collapse;width:100%;margin:12px 0}
+th,td{border:1px solid #ccc;padding:7px;text-align:left}
+th{background:#eee}
+code{background:#eee;padding:2px 4px}
+.example{background:#f1f1f1;padding:10px;margin:10px 0}
+</style>
+</head>
+<body>
 
-<!--
-**letonism/letonism** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1>Letonic Grammar and Basic Vocabulary</h1>
 
-Here are some ideas to get you started:
+<p>Letonic is the historical language of the Leton people. Historically, there are only two forms of the language: <strong>Old Letonic</strong> and <strong>Modern Letonic</strong>. Modern Letonic was deliberately reconstructed to reproduce Old Letonic almost completely, preserving its grammar, vocabulary, phonology, and orthography.</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<section>
+<h2>1. Language Overview</h2>
+<table>
+<tr><th>Item</th><th>Description</th></tr>
+<tr><td>English name</td><td>Letonic</td></tr>
+<tr><td>Endonym</td><td>Letonia /le.toŋia/</td></tr>
+<tr><td>Word order</td><td>SOV</td></tr>
+<tr><td>Type</td><td>Agglutinative</td></tr>
+<tr><td>Nouns</td><td>Case-marked</td></tr>
+<tr><td>Verbs</td><td>Mark person, tense and aspect</td></tr>
+<tr><td>Gender</td><td>None</td></tr>
+<tr><td>Number</td><td>Singular / plural</td></tr>
+<tr><td>Articles</td><td>None</td></tr>
+<tr><td>Adjectives</td><td>Normally follow nouns</td></tr>
+</table>
+</section>
+
+<section>
+<h2>2. Phonology</h2>
+<p>Letonic has five basic vowels:</p>
+<table>
+<tr><th>Letter</th><th>IPA</th></tr>
+<tr><td>a</td><td>/a/</td></tr>
+<tr><td>e</td><td>/e/</td></tr>
+<tr><td>i</td><td>/i/</td></tr>
+<tr><td>o</td><td>/o/</td></tr>
+<tr><td>u</td><td>/u/</td></tr>
+</table>
+
+<p>Diphthongs such as <code>ai</code>, <code>au</code>, <code>ei</code> and <code>oi</code> also occur.</p>
+
+<p>Consonants: <code>p b t d k g ʔ m n ŋ s h w j r l</code>.</p>
+<p><code>ŋ</code> is like the <em>ng</em> in English <em>sing</em>; <code>j</code> is like the <em>y</em> in English <em>yes</em>.</p>
+
+<p>The basic syllable structure is <code>(C)V(C)</code>. Complex word-initial consonant clusters are generally absent.</p>
+</section>
+
+<section>
+<h2>3. Nouns and Number</h2>
+<p>Singular nouns are unmarked. The plural suffix is <code>-n</code>.</p>
+
+<div class="example">
+<code>awa</code> — person<br>
+<code>awan</code> — people<br>
+<code>kuma</code> — dog<br>
+<code>kuman</code> — dogs
+</div>
+
+<p>After numerals, the plural suffix may be omitted:</p>
+<div class="example"><code>ni kuma</code> — two dogs</div>
+</section>
+
+<section>
+<h2>4. Cases</h2>
+<table>
+<tr><th>Case</th><th>Ending</th><th>Meaning</th></tr>
+<tr><td>Nominative</td><td>Ø</td><td>subject</td></tr>
+<tr><td>Accusative</td><td>-m</td><td>object</td></tr>
+<tr><td>Genitive</td><td>-i</td><td>possession</td></tr>
+<tr><td>Dative</td><td>-ta</td><td>to / toward</td></tr>
+<tr><td>Locative</td><td>-na</td><td>at / in</td></tr>
+<tr><td>Ablative</td><td>-ma</td><td>from</td></tr>
+</table>
+
+<div class="example">
+<code>tuma</code> — house<br>
+<code>tumam</code> — house (object)<br>
+<code>tumai</code> — of the house<br>
+<code>tumata</code> — to the house<br>
+<code>tumana</code> — at/in the house<br>
+<code>tumama</code> — from the house
+</div>
+
+<p>Plural and case combine in the order <code>stem + plural + case</code>, e.g. <code>tuma-n-m</code>.</p>
+</section>
+
+<section>
+<h2>5. Possession</h2>
+<p>Possession follows the pattern:</p>
+<div class="example"><code>A-i B</code></div>
+
+<div class="example">
+<code>ŋai tuma</code> — my house<br>
+<code>awai kuma</code> — a person's dog<br>
+<code>suni luma</code> — sunlight
+</div>
+</section>
+
+<section>
+<h2>6. Pronouns</h2>
+<table>
+<tr><th>Person</th><th>Singular</th><th>Plural</th></tr>
+<tr><td>1st</td><td>ŋa</td><td>ma</td></tr>
+<tr><td>2nd</td><td>ti</td><td>tin</td></tr>
+<tr><td>3rd</td><td>i</td><td>in</td></tr>
+</table>
+
+<p>Demonstratives: <code>ka</code> this, <code>sa</code> that, <code>ua</code> that over there.</p>
+</section>
+
+<section>
+<h2>7. Interrogatives</h2>
+<table>
+<tr><th>Word</th><th>Meaning</th></tr>
+<tr><td>ke</td><td>what</td></tr>
+<tr><td>ka</td><td>who</td></tr>
+<tr><td>ku</td><td>where</td></tr>
+<tr><td>kai</td><td>when</td></tr>
+<tr><td>nai</td><td>why</td></tr>
+<tr><td>si</td><td>how</td></tr>
+</table>
+
+<div class="example">
+<code>ti ku-ta pal ya?</code><br>
+Where are you going?
+</div>
+</section>
+
+<section>
+<h2>8. Adjectives</h2>
+<p>Adjectives normally follow nouns and do not agree in number or case.</p>
+
+<div class="example">
+<code>tuma mar</code> — big house<br>
+<code>kuma pi</code> — small dog<br>
+<code>wari sai</code> — good/clean water
+</div>
+
+<p>Comparative: <code>more + adjective</code><br>
+Superlative: <code>max + adjective</code></p>
+</section>
+
+<section>
+<h2>9. Verbs</h2>
+<p>The basic structure is:</p>
+<div class="example"><strong>tense/aspect + person prefix + root</strong></div>
+
+<table>
+<tr><th>Person</th><th>Prefix</th></tr>
+<tr><td>1st singular</td><td>ŋa-</td></tr>
+<tr><td>2nd singular</td><td>ta-</td></tr>
+<tr><td>3rd singular</td><td>i-</td></tr>
+<tr><td>1st plural</td><td>ma-</td></tr>
+<tr><td>2nd plural</td><td>ti-</td></tr>
+<tr><td>3rd plural</td><td>u-</td></tr>
+</table>
+
+<p>Common roots:</p>
+<p><code>kal</code> see · <code>pal</code> go · <code>kali</code> come · <code>man</code> eat · <code>su</code> drink · <code>naŋ</code> sleep · <code>sal</code> speak · <code>tal</code> know · <code>kar</code> make · <code>pan</code> give · <code>mar</code> take · <code>lin</code> hear · <code>sen</code> think · <code>ran</code> run</p>
+</section>
+
+<section>
+<h2>10. Tense and Aspect</h2>
+<table>
+<tr><th>Particle</th><th>Meaning</th></tr>
+<tr><td>pa</td><td>past</td></tr>
+<tr><td>ka</td><td>future</td></tr>
+<tr><td>ra</td><td>progressive</td></tr>
+<tr><td>su</td><td>perfect / completive</td></tr>
+</table>
+
+<div class="example">
+<code>pa ŋa-kal</code> — I saw<br>
+<code>ka ŋa-kal</code> — I will see<br>
+<code>ra ŋa-kal</code> — I am seeing<br>
+<code>su ŋa-kal</code> — I have seen
+</div>
+</section>
+
+<section>
+<h2>11. Negation</h2>
+<p>The negative particle is <code>ne</code>.</p>
+
+<div class="example">
+<code>ne ŋa-kal</code> — I do not see<br>
+<code>pa ne ŋa-kal</code> — I did not see<br>
+<code>ka ne ŋa-kal</code> — I will not see
+</div>
+</section>
+
+<section>
+<h2>12. Basic Word Order</h2>
+<p>Letonic uses SOV word order.</p>
+
+<div class="example">
+<code>ŋa kuma-m kal.</code> — I see the dog.<br>
+<code>i wari-m su.</code> — He/she drinks water.<br>
+<code>ma tuma-m kar.</code> — We build a house.
+</div>
+</section>
+
+<section>
+<h2>13. Location and Direction</h2>
+<div class="example">
+<code>tuma-na</code> — at/in the house<br>
+<code>tuma-ta</code> — to the house<br>
+<code>tuma-ma</code> — from the house
+</div>
+
+<div class="example">
+<code>ŋa tuma-na naŋ.</code> — I sleep at home.<br>
+<code>i wama-ta pal.</code> — He/she goes to the sea.<br>
+<code>i mara-ma kali.</code> — He/she comes from the land.
+</div>
+</section>
+
+<section>
+<h2>14. Copula</h2>
+<p>The copula is <code>an</code>. It is often omitted in the present tense.</p>
+
+<div class="example">
+<code>ŋa Leton-man.</code> — I am Leton.<br>
+<code>ŋa Leton-man an.</code> — I am Leton.<br>
+<code>ŋa Leton-man pa an.</code> — I was Leton.<br>
+<code>ŋa Leton-man ka an.</code> — I will be Leton.
+</div>
+</section>
+
+<section>
+<h2>15. Questions and Commands</h2>
+<p>The sentence-final particle <code>ya</code> marks questions.</p>
+
+<div class="example">
+<code>ti Leton-man ya?</code> — Are you Leton?<br>
+<code>ti wari-m su ya?</code> — Do you drink water?
+</div>
+
+<p>The bare verb root forms an imperative:</p>
+
+<div class="example">
+<code>pal!</code> — Go!<br>
+<code>kal!</code> — Look!<br>
+<code>pal-sa.</code> — Please go.<br>
+<code>kali-sa.</code> — Please come.
+</div>
+</section>
+
+<section>
+<h2>16. Conjunctions</h2>
+<table>
+<tr><th>Word</th><th>Meaning</th></tr>
+<tr><td>a</td><td>and</td></tr>
+<tr><td>o</td><td>or</td></tr>
+<tr><td>ma</td><td>but</td></tr>
+<tr><td>se</td><td>therefore / so</td></tr>
+<tr><td>na</td><td>if</td></tr>
+<tr><td>ke</td><td>that</td></tr>
+</table>
+</section>
+
+<section>
+<h2>17. Basic Vocabulary</h2>
+
+<table>
+<tr><th>Letonic</th><th>English</th></tr>
+<tr><td>awa</td><td>person</td></tr>
+<tr><td>mana</td><td>man</td></tr>
+<tr><td>nisa</td><td>woman</td></tr>
+<tr><td>nari</td><td>child</td></tr>
+<tr><td>ama</td><td>mother</td></tr>
+<tr><td>apa</td><td>father</td></tr>
+<tr><td>tari</td><td>brother/sibling</td></tr>
+<tr><td>sira</td><td>sister</td></tr>
+<tr><td>Leton</td><td>Leton</td></tr>
+<tr><td>len</td><td>language</td></tr>
+<tr><td>nam</td><td>name</td></tr>
+<tr><td>wan</td><td>village</td></tr>
+<tr><td>mara</td><td>country / land</td></tr>
+<tr><td>tuma</td><td>house</td></tr>
+<tr><td>raki</td><td>king</td></tr>
+<tr><td>rina</td><td>queen</td></tr>
+<tr><td>maraŋ</td><td>people / nation</td></tr>
+<tr><td>wari</td><td>water</td></tr>
+<tr><td>aka</td><td>fire</td></tr>
+<tr><td>ŋawa</td><td>sky</td></tr>
+<tr><td>sunu</td><td>sun</td></tr>
+<tr><td>mira</td><td>moon</td></tr>
+<tr><td>sira</td><td>star</td></tr>
+<tr><td>panu</td><td>tree</td></tr>
+<tr><td>kala</td><td>stone</td></tr>
+<tr><td>aru</td><td>mountain</td></tr>
+<tr><td>luma</td><td>river</td></tr>
+<tr><td>wama</td><td>sea</td></tr>
+<tr><td>kuma</td><td>dog</td></tr>
+<tr><td>kana</td><td>fish</td></tr>
+<tr><td>manu</td><td>bird</td></tr>
+<tr><td>suma</td><td>deer</td></tr>
+<tr><td>koro</td><td>wolf</td></tr>
+<tr><td>paku</td><td>boar</td></tr>
+<tr><td>miri</td><td>cat</td></tr>
+<tr><td>tawa</td><td>snake</td></tr>
+<tr><td>ŋaru</td><td>bear</td></tr>
+</table>
+</section>
+
+<section>
+<h2>18. Basic Adjectives</h2>
+<p>
+<code>mar</code> big ·
+<code>pi</code> small ·
+<code>sai</code> good ·
+<code>uka</code> bad ·
+<code>sur</code> white ·
+<code>kara</code> black ·
+<code>luma</code> bright ·
+<code>hura</code> dark ·
+<code>mara</code> wide ·
+<code>piri</code> narrow ·
+<code>raku</code> fast ·
+<code>muna</code> slow ·
+<code>nari</code> new ·
+<code>ana</code> old ·
+<code>rima</code> hot ·
+<code>sili</code> cold ·
+<code>sela</code> quiet ·
+<code>hara</code> noisy
+</p>
+</section>
+
+<section>
+<h2>19. Numerals</h2>
+<table>
+<tr><th>Number</th><th>Letonic</th></tr>
+<tr><td>1</td><td>ta</td></tr>
+<tr><td>2</td><td>ni</td></tr>
+<tr><td>3</td><td>se</td></tr>
+<tr><td>4</td><td>maŋ</td></tr>
+<tr><td>5</td><td>lima</td></tr>
+<tr><td>6</td><td>tuk</td></tr>
+<tr><td>7</td><td>sapa</td></tr>
+<tr><td>8</td><td>wari</td></tr>
+<tr><td>9</td><td>nuku</td></tr>
+<tr><td>10</td><td>pana</td></tr>
+</table>
+
+<p><code>11 = pana-ta</code> · <code>12 = pana-ni</code> · <code>20 = ni-pana</code> · <code>25 = ni-pana-lima</code></p>
+</section>
+
+<section>
+<h2>20. Time</h2>
+<p>
+<code>ara</code> day ·
+<code>rani</code> morning ·
+<code>sunu</code> noon ·
+<code>sula</code> evening ·
+<code>naku</code> night ·
+<code>mira</code> month ·
+<code>pana</code> year ·
+<code>tana</code> today ·
+<code>pani</code> tomorrow ·
+<code>pama</code> yesterday ·
+<code>nai</code> now
+</p>
+</section>
+
+<section>
+<h2>21. Cultural Semantics</h2>
+<p><code>wari</code> “water” became a culturally important polysemous word associated with water, rivers, flow, movement, time, and life.</p>
+
+<div class="example">
+<code>wari pal</code> — “water goes”<br>
+Poetic meanings: “time flows” / “life moves forward”.
+</div>
+
+<p><code>mara</code> can mean soil, earth, land, homeland, or country.</p>
+
+<div class="example">
+<code>awa a mara</code> — “people and land”<br>
+Cultural meaning: “people and homeland” / “the people and the land”.
+</div>
+</section>
+
+<section>
+<h2>22. Basic Conversation</h2>
+
+<div class="example">
+<strong>A:</strong> <code>ti ku-ta pal ya?</code><br>
+Where are you going?<br><br>
+
+<strong>B:</strong> <code>ŋa wama-ta pal.</code><br>
+I am going to the sea.<br><br>
+
+<strong>A:</strong> <code>ke-ta?</code><br>
+For what purpose?<br><br>
+
+<strong>B:</strong> <code>ŋa kana-m man.</code><br>
+I am going to eat fish.<br><br>
+
+<strong>A:</strong> <code>kali-sa.</code><br>
+Please come again.<br><br>
+
+<strong>B:</strong> <code>sai. ŋa kali.</code><br>
+Okay. I will come.
+</div>
+</section>
+
+<section>
+<h2>23. Quick Reference</h2>
+<table>
+<tr><th>Feature</th><th>Form</th></tr>
+<tr><td>Word order</td><td>SOV</td></tr>
+<tr><td>Plural</td><td>-n</td></tr>
+<tr><td>Accusative</td><td>-m</td></tr>
+<tr><td>Genitive</td><td>-i</td></tr>
+<tr><td>Dative</td><td>-ta</td></tr>
+<tr><td>Locative</td><td>-na</td></tr>
+<tr><td>Ablative</td><td>-ma</td></tr>
+<tr><td>Past</td><td>pa</td></tr>
+<tr><td>Future</td><td>ka</td></tr>
+<tr><td>Progressive</td><td>ra</td></tr>
+<tr><td>Perfect</td><td>su</td></tr>
+<tr><td>Negation</td><td>ne</td></tr>
+<tr><td>Question</td><td>ya</td></tr>
+<tr><td>Polite imperative</td><td>sa</td></tr>
+<tr><td>Adjective</td><td>Noun + adjective</td></tr>
+<tr><td>Possession</td><td>Possessor-i + noun</td></tr>
+</table>
+
+<div class="example">
+<code>ŋa wari-m su.</code><br>
+I drink water.
+</div>
+</section>
+
+</body>
+</html>
