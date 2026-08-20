@@ -535,6 +535,7 @@
 `taliŋa` — truth  
 `sanuŋ` — truthfulness  
 `ukaŋb` — wrongness  
+`ma` — thing  
 
 ## Core Semantic Principles
 
