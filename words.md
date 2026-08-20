@@ -482,6 +482,9 @@
 `saluŋ` — shelf  
 `kunaŋa` — box  
 `lakaŋ` — basket  
+`capa` — cap
+`hacapa` — hat  
+
 
 ## Abstract Concepts and Society
 
