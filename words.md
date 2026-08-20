@@ -377,8 +377,9 @@
 `kal` — white  
 `mar` — red  
 `wal` — green  
-`kalwal` — yellow
-`kauwal` — blue
+`kalwal` — yellow  
+`kauwal` — blue  
+`saitali` — gratitude  
 
 ## Time, Number, and Space
 
