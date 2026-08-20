@@ -13,6 +13,22 @@ th,td{border:1px solid #ccc;padding:7px;text-align:left}
 th{background:#eee}
 code{background:#eee;padding:2px 4px}
 .example{background:#f1f1f1;padding:10px;margin:10px 0}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* レトン適合マークをイメージした鮮やかな青 */
+    color: #ffffff;            /* 文字色（白抜きの⧖のように白） */
+    text-decoration: none;     /* リンクの下線を消去（デバッグ） */
+    border-radius: 5px;        /* 角を少し丸くして洗練されたデザインに */
+    font-weight: bold;         /* 文字を太字にして視認性をMAXに */
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; /* カーソルを合わせた時に少し暗い青に変化 */
+}
+
 </style>
 </head>
 <body>
@@ -445,7 +461,7 @@ I drink water.
 </div>
 </section>
 
-<a href="words.html">Word list</a>
+<a href="words.html" class="button">Word list</a>
 
 </body>
 </html>
