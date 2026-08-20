@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Letonic Vocabulary</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background: #f5f5f5;
+        }
+
+        code {
+            font-family: monospace;
+        }
+
+        #loading {
+            color: #777;
+        }
+
+        #error {
+            color: #c00;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main id="content">
+        <p id="loading">Loading vocabulary...</p>
+    </main>
+
+    <script>
+        async function loadWords() {
+            const content = document.getElementById("content");
+
+            try {
+                const response = await fetch("words.md");
+
+                if (!response.ok) {
+                    throw new Error(
+                        `Failed to load words.md: ${response.status}`
+                    );
+                }
+
+                const markdown = await response.text();
+
+                // Markdown → HTML
+                content.innerHTML = marked.parse(markdown);
+
+            } catch (error) {
+                console.error(error);
+
+                content.innerHTML = `
+                    <p id="error">
+                        Failed to load vocabulary.
+                    </p>
+                `;
+            }
+        }
+
+        loadWords();
+    </script>
+
+</body>
+</html>
