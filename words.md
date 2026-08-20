@@ -370,6 +370,12 @@
 `huraŋc` — be cool  
 `nemaŋb` — be young  
 `ranuŋa` — be tired  
+`kau` — black  
+`kal` — white  
+`mar` — red  
+`wal` — green  
+`kalwal` — yellow
+`kauwal` — blue
 
 ## Time, Number, and Space
 
