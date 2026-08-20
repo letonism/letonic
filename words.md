@@ -542,6 +542,7 @@
 `sanuŋ` — truthfulness  
 `ukaŋb` — wrongness  
 `ma` — thing  
+`saiya an` — thank you  
 
 ## Core Semantic Principles
 
