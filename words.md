@@ -504,7 +504,7 @@
 `yaraŋ` — order  
 `nakuŋe` — rule  
 `pasaŋ` — law  
-`henaŋc` — peace  
+`henaŋc` — peace, hello  
 `tawaŋd` — conflict  
 `samaŋ` — help  
 `palaŋf` — work  
