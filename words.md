@@ -266,7 +266,7 @@
 `panaŋb` — grain cake  
 `sumaŋc` — berry  
 `liraŋ` — food portion  
-`tika` — chiken  
+`tika` — chicken  
 
 ## Basic Actions
 
