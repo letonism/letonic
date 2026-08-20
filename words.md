@@ -211,6 +211,8 @@
 `maraŋb` — seal  
 `kalu` — animal  
 `yaku` — antelope  
+`waku` — sheep  
+`wakupisi` — lamb  
 
 ## Plants and Food
 
@@ -264,6 +266,7 @@
 `panaŋb` — grain cake  
 `sumaŋc` — berry  
 `liraŋ` — food portion  
+`tika` — chiken  
 
 ## Basic Actions
 
