@@ -3,99 +3,324 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Letmemo - Letonic Notepad</title>
+
     <style>
         @font-face {
             font-family: 'Letonic-Regular';
-            src: url('https://letonism.github.io/letonic/Letonic-Regular.otf') format('opentype');
+            src: url('https://letonism.github.io/letonic/Letonic-Regular.otf')
+                format('opentype');
             font-display: swap;
         }
 
         body {
             margin: 0;
             padding: 0;
-            background-color: #1a1a1a; 
+            background-color: #1a1a1a;
             color: #e0e0e0;
             font-family: 'Helvetica Neue', Arial, 'Noto Sans JP', sans-serif;
+
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+
             min-height: 100vh;
         }
 
         .container {
             width: 90%;
             max-width: 800px;
+
             background: #2a2a2a;
             padding: 30px;
+
             border-radius: 12px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-            border: 2px solid #454545; 
+
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+
+            border: 2px solid #454545;
+
             box-sizing: border-box;
         }
 
         h1 {
             text-align: center;
+
             font-size: 1.8rem;
-            color: #ffcc00; 
+
+            color: #ffcc00;
+
             margin-bottom: 5px;
+
             font-weight: normal;
-            font-family: 'Helvetica Neue', Arial, sans-serif;
+
+            font-family:
+                'Helvetica Neue',
+                Arial,
+                sans-serif;
         }
 
         .subtitle {
             text-align: center;
+
             font-size: 0.9rem;
+
             color: #888;
+
             margin-bottom: 25px;
-            font-family: 'Helvetica Neue', Arial, sans-serif;
+
+            font-family:
+                'Helvetica Neue',
+                Arial,
+                sans-serif;
         }
 
-        
         textarea {
             width: 100%;
             height: 300px;
+
             background-color: #111;
+
             color: #fff;
+
             border: 1px solid #555;
+
             border-radius: 6px;
+
             padding: 15px;
+
             font-size: 1.5rem;
+
             line-height: 1.8;
-           
-            font-family: 'Letonic-Regular', 'Helvetica Neue', Arial, 'Noto Sans JP', sans-serif; 
+
+            font-family:
+                'Letonic-Regular',
+                'Helvetica Neue',
+                Arial,
+                'Noto Sans JP',
+                sans-serif;
+
             resize: vertical;
+
             outline: none;
+
             box-sizing: border-box;
         }
 
         textarea:focus {
             border-color: #ffcc00;
-            box-shadow: 0 0 10px rgba(255,204,0,0.3);
+
+            box-shadow:
+                0 0 10px rgba(255, 204, 0, 0.3);
         }
 
         .footer {
             margin-top: 20px;
+
             text-align: center;
+
             font-size: 0.8rem;
+
             color: #666;
-            font-family: 'Helvetica Neue', Arial, sans-serif;
+
+            font-family:
+                'Helvetica Neue',
+                Arial,
+                sans-serif;
         }
     </style>
 </head>
+
 <body>
 
 <div class="container">
+
     <h1>Letmemo - Letonic Notepad</h1>
-    <div class="subtitle">Leton Leton-i mara an</div>
-    
-    <textarea placeholder="ŋa wari-m su..."></textarea>
-    
-    <div class="footer">
-        ©  2026 The Letonism Organization. All rights reserved. Freedom is fully granted.
+
+    <div class="subtitle">
+        Leton Leton-i mara an
     </div>
+
+    <textarea
+        id="letmemo"
+        placeholder="ŋa wari-m su..."
+        spellcheck="false"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="off"
+    ></textarea>
+
+    <div class="footer">
+        © 2026 The Letonism Organization.
+        All copyright privileges reserved.
+        Grants fully freedom.
+    </div>
+
 </div>
+
+
+<script>
+    const textarea = document.getElementById('letmemo');
+
+
+    /*
+     * Letonic orthography conversion
+     *
+     * ng  → ŋ
+     * tt  → tʔ
+     * aa  → aʔ
+     * ss  → sʔ
+     *
+     * Conversion happens only when the user
+     * finishes a word by entering:
+     *
+     * - Space
+     * - Enter
+     * - Punctuation
+     */
+
+
+    function convertLetonicWord(word) {
+
+        /*
+         * ng → ŋ
+         *
+         * This is performed first so that
+         * "ng" is treated as a single Letonic
+         * character sequence.
+         */
+        word = word.replace(/ng/g, 'ŋ');
+
+
+        /*
+         * Repeated alphabetic character
+         *
+         * tt → tʔ
+         * aa → aʔ
+         * ss → sʔ
+         *
+         * Only Latin alphabet characters are
+         * affected.
+         */
+        word = word.replace(
+            /([a-zA-Z])\1/g,
+            '$1ʔ'
+        );
+
+
+        return word;
+    }
+
+
+    /*
+     * Detect completion of a word.
+     */
+    textarea.addEventListener('input', () => {
+
+        const value = textarea.value;
+
+        const cursor = textarea.selectionStart;
+
+        /*
+         * Text immediately before the cursor.
+         */
+        const beforeCursor =
+            value.slice(0, cursor);
+
+
+        /*
+         * Conversion trigger:
+         *
+         * Space
+         * New line
+         * English punctuation
+         * Japanese punctuation
+         */
+        if (
+            !/[ \n.,!?;:，。！？；：]$/
+                .test(beforeCursor)
+        ) {
+            return;
+        }
+
+
+        /*
+         * Find the word immediately before
+         * the newly entered separator.
+         *
+         * Hyphens are allowed because
+         * Letonic words can contain them.
+         */
+        const match =
+            beforeCursor.match(
+                /([A-Za-zŋʔ-]+)([ \n.,!?;:，。！？；：])$/
+            );
+
+
+        if (!match) {
+            return;
+        }
+
+
+        const word = match[1];
+
+        const separator = match[2];
+
+
+        /*
+         * Convert the word.
+         */
+        const converted =
+            convertLetonicWord(word);
+
+
+        /*
+         * Nothing changed.
+         */
+        if (word === converted) {
+            return;
+        }
+
+
+        /*
+         * Position where the word begins.
+         */
+        const start =
+            cursor -
+            word.length -
+            separator.length;
+
+
+        /*
+         * Replace only the converted word.
+         */
+        const newValue =
+            value.slice(0, start) +
+            converted +
+            separator +
+            value.slice(cursor);
+
+
+        textarea.value = newValue;
+
+
+        /*
+         * Restore cursor position.
+         */
+        const newCursor =
+            start +
+            converted.length +
+            separator.length;
+
+
+        textarea.setSelectionRange(
+            newCursor,
+            newCursor
+        );
+    });
+</script>
 
 </body>
 </html>
