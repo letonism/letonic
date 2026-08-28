@@ -105,8 +105,6 @@
 `piriŋ` — body hair  
 `hiraŋ` — joint  
 `sawaŋc` — illness  
-`ko` — skin / hide  
-`ku` — brain  
 
 ## Nature
 
@@ -328,8 +326,6 @@
 `nukar` — choose  
 `kao` — dig  
 `ka` — enter  
-koa` — follow  
-`ku` — sit  
 `kai` — wake up  
 `koaʔ` — go out / exit  
 `kaʔai` — vomit  
@@ -503,7 +499,6 @@ koa` — follow
 `hacapa` — hat  
 `dau` — path / road  
 
-
 ## Abstract Concepts and Society
 
 `saiya` — good  
@@ -519,7 +514,7 @@ koa` — follow
 `yaraŋ` — order  
 `nakuŋe` — rule  
 `pasaŋ` — law  
-`henaŋc` — peace, hello  
+`henaŋc` — peace / hello  
 `tawaŋd` — conflict  
 `samaŋ` — help  
 `palaŋf` — work  
@@ -559,6 +554,19 @@ koa` — follow
 `ma` — thing  
 `saiya an` — thank you  
 
+## Comparative-Historical Additions
+
+`dani` — bee / honey  
+`dau` — path / road  
+`kao` — dig  
+`koa` — elephant  
+`ŋa` — horn  
+`kom` — charcoal  
+`ka` — enter  
+`kai` — wake up  
+`koaʔ` — go out / exit  
+`kaʔai` — vomit  
+
 ## Core Semantic Principles
 
 - `wari` — water → river → flow → movement → time → life
@@ -568,3 +576,5 @@ koa` — follow
 - Nouns remain morphologically simple, with case and plural suffixes added regularly.
 - Adjectives normally follow nouns.
 - New vocabulary should preferentially use the existing phoneme inventory and `(C)V(C)` syllable structure.
+- Comparative-historical vocabulary should be reconstructed from attested comparative evidence rather than created arbitrarily.
+- Proto-forms should be evaluated against regular sound correspondences before being incorporated into the core vocabulary.
