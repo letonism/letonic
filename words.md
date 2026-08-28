@@ -105,6 +105,8 @@
 `piriŋ` — body hair  
 `hiraŋ` — joint  
 `sawaŋc` — illness  
+`ko` — skin / hide  
+`ku` — brain  
 
 ## Nature
 
@@ -158,6 +160,7 @@
 `naru` — flame  
 `suru` — steam  
 `wariŋa` — wave  
+`kom` — charcoal  
 
 ## Animals
 
@@ -213,6 +216,9 @@
 `yaku` — antelope  
 `waku` — sheep  
 `wakupisi` — lamb  
+`dani` — bee / honey  
+`koa` — elephant  
+`ŋa` — horn  
 
 ## Plants and Food
 
@@ -320,6 +326,13 @@
 `kalar` — look at  
 `sural` — wait  
 `nukar` — choose  
+`kao` — dig  
+`ka` — enter  
+koa` — follow  
+`ku` — sit  
+`kai` — wake up  
+`koaʔ` — go out / exit  
+`kaʔai` — vomit  
 
 ## Perception, Emotion, and Qualities
 
@@ -486,8 +499,9 @@
 `saluŋ` — shelf  
 `kunaŋa` — box  
 `lakaŋ` — basket  
-`capa` — cap
+`capa` — cap  
 `hacapa` — hat  
+`dau` — path / road  
 
 
 ## Abstract Concepts and Society
