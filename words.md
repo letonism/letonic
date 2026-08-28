@@ -554,6 +554,8 @@
 `ukaŋb` — wrongness  
 `ma` — thing  
 `saiya an` — thank you  
+`herijar` — resurrection / revival  
+
 
 ## Comparative-Historical Additions
 
