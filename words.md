@@ -39,7 +39,7 @@
 `sani` — personhood  
 `kira` — self  
 `hira` — birth  
-`yama` — marriage  
+`jama` — marriage  
 `pasa` — partner  
 `kuna` — crowd  
 `laka` — group  
@@ -93,7 +93,7 @@
 `siraŋa` — thought  
 `wanu` — voice  
 `suli` — tear  
-`naya` — pain  
+`naja` — pain  
 `saiŋ` — healthy  
 `henaŋ` — body  
 `kaliŋ` — vein  
@@ -133,7 +133,7 @@
 `hiri` — dust  
 `makuŋ` — mud  
 `sila` — snow  
-`haya` — ice  
+`haja` — ice  
 `ranuŋ` — rain  
 `sawaŋ` — wind  
 `huru` — cloud  
@@ -151,7 +151,7 @@
 `pani` — tomorrow  
 `pamaŋa` — yesterday  
 `nara` — season  
-`yara` — weather  
+`jara` — weather  
 `kawi` — shadow  
 `lahi` — smoke  
 `pahu` — ash  
@@ -211,7 +211,7 @@
 `piraŋa` — shark  
 `maraŋb` — seal  
 `kalu` — animal  
-`yaku` — antelope  
+`jaku` — antelope  
 `waku` — sheep  
 `wakupisi` — lamb  
 `dani` — bee / honey  
@@ -294,7 +294,7 @@
 `hul` — fall  
 `dal` — rise  
 `lan` — stay  
-`yan` — live  
+`jan` — live  
 `sum` — die  
 `hir` — be born  
 `par` — open  
@@ -337,8 +337,8 @@
 `hur` — fear  
 `sarŋ` — love  
 `mal` — hate  
-`yena` — admire  
-`yuka` — dislike  
+`jena` — admire  
+`juka` — dislike  
 `hami` — be hot  
 `silu` — be cold  
 `sehu` — be quiet  
@@ -481,7 +481,7 @@
 `lumaŋf` — oar  
 `palaŋe` — wheel  
 `rakuŋc` — cart  
-`hayaŋa` — road  
+`hajaŋa` — road  
 `tamaŋa` — path  
 `maraŋf` — bridge  
 `sapaŋc` — fence  
@@ -502,7 +502,7 @@
 
 ## Abstract Concepts and Society
 
-`saiya` — good  
+`sai ja` — good  
 `ukaŋa` — falsehood  
 `talŋ` — knowledge  
 `senŋ` — thought  
@@ -512,7 +512,7 @@
 `lumaŋg` — light  
 `maraŋg` — world  
 `wariŋd` — flow  
-`yaraŋ` — order  
+`jaraŋ` — order  
 `nakuŋe` — rule  
 `pasaŋ` — law  
 `henaŋc` — peace / hello  
@@ -539,21 +539,21 @@
 `tiraŋ` — reason  
 `paluŋ` — purpose  
 `nawaŋi` — custom  
-`nariya` — new  
+`nari ja` — new  
 `maruŋ` — broadness  
 `lumiŋ` — brightness  
 `huruŋa` — darkness  
-`piriya` — narrowness  
+`piri ja` — narrowness  
 `suruŋ` — whiteness  
-`selaya` — quietness  
-`haraya` — noisiness  
+`selaja` — quietness  
+`haraja` — noisiness  
 `sapaŋe` — fullness  
 `nakuŋf` — emptiness  
 `taliŋa` — truth  
 `sanuŋ` — truthfulness  
 `ukaŋb` — wrongness  
 `ma` — thing  
-`saiya an` — thank you  
+`sai ja an` — thank you  
 `herijar` — resurrection / revival  
 
 
