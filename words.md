@@ -329,6 +329,7 @@
 `kai` — wake up  
 `koaʔ` — go out / exit  
 `kaʔai` — vomit  
+`herija` — revive  
 
 ## Perception, Emotion, and Qualities
 
