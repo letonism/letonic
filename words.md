@@ -561,7 +561,7 @@
 ## Others
 
 `dejwoels` — God  
-`elve`— Elvé (The God of Letonism)  
+`elwe`— Elvé (The God of Letonism)  
 
 ## Core Semantic Principles
 
