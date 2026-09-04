@@ -146,7 +146,7 @@
 `ara` — day  
 `rani` — morning  
 `miraŋa` — month  
-`pana` — year  
+`wara` — year  
 `tana` — today  
 `pani` — tomorrow  
 `pamaŋa` — yesterday  
