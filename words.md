@@ -391,6 +391,8 @@
 `kalwal` — yellow  
 `kauwal` — blue  
 `saitali` — gratitude  
+`marʔe` — Great  
+`dejwel` — holy  
 
 ## Time, Number, and Space
 
@@ -562,6 +564,7 @@
 
 `dejwoels` — God  
 `elwe`— Elvé (The God of Letonism)  
+あ
 
 ## Core Semantic Principles
 
