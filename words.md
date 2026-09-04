@@ -330,7 +330,7 @@
 `koaʔ` — go out / exit  
 `kaʔai` — vomit  
 `herija` — resurrect / revive  
-`sela` — pray  
+`sela` — save  
 
 ## Perception, Emotion, and Qualities
 
@@ -558,18 +558,10 @@
 `herijar` — resurrection / revival  
 
 
-## Comparative-Historical Additions
+## Others
 
-`dani` — bee / honey  
-`dau` — path / road  
-`kao` — dig  
-`koa` — elephant  
-`ŋa` — horn  
-`kom` — charcoal  
-`ka` — enter  
-`kai` — wake up  
-`koaʔ` — go out / exit  
-`kaʔai` — vomit  
+`dejwos` — God  
+`elve`— Elvé (The God of Letonism)  
 
 ## Core Semantic Principles
 
