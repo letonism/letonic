@@ -330,6 +330,7 @@
 `koaʔ` — go out / exit  
 `kaʔai` — vomit  
 `herija` — resurrect / revive  
+`sela` — pray  
 
 ## Perception, Emotion, and Qualities
 
