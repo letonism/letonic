@@ -446,6 +446,27 @@
 `sumaŋd` — around  
 `kiraŋc` — through  
 `munaŋi` — slowly  
+`pana-mari` — 10²  
+`pana-alherm` — 10³  
+`pana-ojaŋ` — 10⁴  
+`pana-unui` — 10⁵  
+`pana-eʔse` — 10⁶  
+`pana-iltenal` — 10⁷  
+`pana-polsen` — 10⁸  
+`pana-botolhem` — 10⁹  
+`pana-talhe` — 10¹⁰  
+`pana-demel` — 10¹¹  
+`pana-kansagem` — 10¹²  
+`pana-gimeol` — 10¹³  
+`pana-ʔtalme` — 10¹⁴  
+`pana-monui` — 10¹⁵  
+`pana-nalhe` — 10¹⁶  
+`pana-ŋaltem` — 10¹⁷  
+`pana-sajme` — 10¹⁸  
+`pana-halse` — 10¹⁹  
+`pana-jalne` — 10²⁰  
+`pana-rafitemil` — 10²¹  
+`pana-lamitelel` — 10²²  
 
 ## Tools and Dwellings
 
